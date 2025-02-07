@@ -4,3 +4,22 @@
  *
  * Replace them with your own styles or remove the file completely.
  */
+
+.services-nav {
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	padding: 1rem 2.4rem;
+	list-style: none;
+	border: double 6px rgb(255, 234, 0);
+	background: #f1f1f1;
+}
+
+.services-nav a {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	text-align: center;
+	padding: 0.3rem;
+	word-wrap: break-word;
+}

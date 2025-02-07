@@ -27,9 +27,9 @@ function mindset_enqueues() {
 
     if ( is_page('contact')) {
         wp_enqueue_script(
-            'mindset-scroll-to-top',
+            'mindset-scroll-to-top-contact',
             get_theme_file_uri('assets/js/scroll-to-top-contact.js'),
-            array(),
+            array('mindset-scroll-to-top'),
             '20250127',
             array( 'strategy' => 'defer' )
         );

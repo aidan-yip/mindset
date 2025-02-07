@@ -1,7 +1,6 @@
 <?php
 function mindset_register_custom_post_types() {
 
-    function fwd_register_taxonomies() {
         // Add Work Category taxonomy
         $labels = array(
             'name'                  => _x( 'Work Categories', 'taxonomy general name', 'mindset-theme' ),
@@ -36,7 +35,6 @@ function mindset_register_custom_post_types() {
             'rewrite'           => array( 'slug' => 'work-categories' ),
         );
         register_taxonomy( 'fwd-work-category', array( 'fwd-work' ), $args );
-    }
     add_action( 'init', 'fwd_register_taxonomies' );
 
 	$labels = array(

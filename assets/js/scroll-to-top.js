@@ -23,5 +23,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 			button.style.opacity = "1";
 		}
 	});
+
+	
   
 });
