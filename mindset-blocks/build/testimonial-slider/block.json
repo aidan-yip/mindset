@@ -10,7 +10,12 @@
   "example": {},
   "supports": {
     "html": false,
-    "multiple": false
+    "multiple": false,
+    "color": {},
+    "spacing": {
+      "margin": true,
+      "padding": true
+    }
   },
   "attributes": {
     "navigation": {
